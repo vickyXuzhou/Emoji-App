@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Baloo;
+}
+#container{
+    height: auto;
+    width: 70%;
+    background-color: aqua;
+    margin: 6% auto;
+}
+#emoji-container{
+    margin:20px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+    flex-direction: row;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    font-size: 60px;
+    color: green;
+    padding:14px 8px;
+}
+button{
+    height: 45px;
+    width: auto;
+    color: yellow;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 9px;
+   
+}
+#text{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 3px 0;
+}
+
+#button-el{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+    padding: 20px;
+}
+#first{
+    background-color: rgb(255, 0, 195);
+}
+#second{
+    background-color: rgb(255, 0, 195);
+}
+#third, #fourth{
+    background-color: blueviolet;
+}
